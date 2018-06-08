@@ -1,4 +1,4 @@
-(defproject xpusher "0.0.0"
+(defproject xpusher "0.1.0"
   :description "A Pusher client for coin exchanges based on core.async"
   :url "https://github.com/druids/xpusher"
   :license {:name "MIT License"
