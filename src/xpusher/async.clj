@@ -51,7 +51,7 @@
   (let [coerced-ob (update ob :timestamp tol/->int)]
     (if str-big-decimals?
       (merge coerced-ob
-             (tol/update-values (partial map #(mapv bigdec %)) (select-keys ob [:asks :bids])))
+             (tol/update-vals (partial map #(mapv bigdec %)) (select-keys ob [:asks :bids])))
       coerced-ob)))
 
 

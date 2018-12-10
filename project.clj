@@ -4,10 +4,10 @@
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"}
 
-  :dependencies [[org.clojure/core.async "0.4.474"]
-                 [cheshire "5.8.0"]
-                 [com.pusher/pusher-java-client "1.8.0"]
-                 [tol "0.8.0"]]
+  :dependencies [[org.clojure/core.async "0.4.490"]
+                 [cheshire "5.8.1"]
+                 [com.pusher/pusher-java-client "1.8.2"]
+                 [tol "0.9.0"]]
 
   :profiles {:dev {:plugins [[lein-cloverage "1.0.10"]
                              [lein-kibit "0.1.6"]
