@@ -12,7 +12,7 @@ Leiningen/Boot
 --------------
 
 ```clojure
-[xpusher "0.1.0"]
+[xpusher "0.2.0"]
 ```
 
 Documentation
